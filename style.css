@@ -1,0 +1,268 @@
+*  
+    { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+.clear 
+    { 
+    clear:both; 
+}
+.center {
+	text-align: center;
+}	
+
+.right 
+    { 
+    float: right; 
+} 
+
+.left 
+    { 
+    float: left; 
+}
+.italic {
+	font-style: italic;
+} 
+body 
+    { 
+    font: 62.5%/1.5  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif; 
+    /*background: url(/images/wallpaper.png) repeat; */
+    color: #000000;     
+    /*text-align:center;*/ 
+} 
+
+#wrapper 
+    {  
+    width:980px;  
+    text-align:left;   
+    margin-left:auto;  
+    margin-right:auto;  
+    background-color: #FFFFFF; 
+}
+h1 
+    { 
+    font-size: 2.2em; 
+} 
+     
+h2 
+    { 
+    font-size: 2.0em;     
+} 
+     
+h3 
+    { 
+    font-size: 1.8em; 
+} 
+     
+h4 
+    { 
+    font-size: 1.6em;     
+} 
+     
+h5 
+    { 
+    font-size: 1.4em;     
+} 
+     
+p 
+    { 
+    font-size: 1.2em;     
+}
+/* Header */
+
+.text {
+	text-transform: uppercase;
+}
+.header-text {
+	font-weight: 1;
+	font-size: 3.2em;
+}
+#menu {
+	margin: auto;
+	max-width: 600px;
+	padding: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
+  padding-inline-start: 50px;
+  padding-inline-end: 50px;
+}
+li {
+	display: list-item;
+	display: grid;
+	float: left;
+	padding: 20px;
+	
+}
+li:hover{
+	background-color: lightgrey;
+}
+a.text {
+	font-size: 1.8em;
+	color: black;
+	text-decoration: none;
+}
+#head-img {
+	margin: auto;
+	width: 100%;
+	background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*Main content
+---------------------------------------------------------*/
+#main {
+	
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	color: #333;
+	font-size:1.2em;
+	max-width:1000px;
+}
+#main p{
+	width: 55%;
+	min-height:200px;
+	display: inline-block;
+	overflow: overflow;
+	padding-right: 5px;
+}
+#main img{
+	width: 40%;
+	max-width: 300px;
+	display: inline-block;
+	float: right;
+}
+#dots {
+	width: 90%;
+	margin: 0 auto;
+	
+}
+#dots1 {
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+.dot {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border:1px solid #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 20px;
+}
+.text-dot {
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 20px;
+}
+.text-mob {
+  width: 150px;
+  text-align: center;
+  display: none;
+  margin: auto;
+}
+.ee {
+	background-image: url("https://images.unsplash.com/photo-1554959476-022a12d3a383?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	background-size: cover;
+}
+.asia{
+	background-image: url("https://images.unsplash.com/photo-1581331474665-a0bbee7dfba9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+	background-size: cover;
+}
+.italia {
+	background-image: url("https://images.unsplash.com/photo-1575301544251-cd6891c3aaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80");
+	background-size: cover;
+}
+
+#dots div {
+	height:20px;
+	color:#bbb;
+	margin: 60px 0px;
+}
+/* Footer */
+footer {
+	background-color: #bbb;
+	padding: 20px;
+}
+footer p {
+	display: inline-block;
+	clear: both;
+	max-width: 300px;
+}
+.footer {
+	float: right;
+	display: inline-block;
+}
+.footer-img {
+	max-width: 30px;
+	height: 30px;
+	display: flex;
+}
+.clearfix {
+	overflow: auto;
+}
+/*DESKTOP*/
+hr.mobile {
+	display:none;
+	border: 1px solid black;
+	margin: auto;
+	margin-top:20px;
+	max-width: 80%;
+}
+/*MOBILE*/
+@media only screen and (max-width: 800px) {
+	hr.mobile {
+		display:block;
+	}
+	#main img{
+		display: none;
+	}
+	#main h1 {
+		width: 80%;
+		margin: auto;
+	}
+	#main p{
+	width: 80%;
+	display: block;
+	padding: 0px;
+	margin: auto;
+	min-height:0;
+	}
+	.dot {
+	  display: block;
+	  margin: 20px auto;
+	}
+	.text-mob {
+		display: block;
+	}
+	#dots1{
+		display: none;
+	}
+	
+}
+/* Tables  
+-----------------------------------------------------------------------------*/ 
+
+table 
+  {  
+  border-spacing: 0; 
+  border-collapse: collapse; 
+} 
+
+td  
+  { 
+  text-align: left; 
+  font-weight: normal; 
+}
